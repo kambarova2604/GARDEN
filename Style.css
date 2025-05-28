@@ -1,170 +1,207 @@
-header{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 31px 42px;
-
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-.menu{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    
-    column-gap : 54px; 
 
-
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 42px;
 }
-.menu a{
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
-    font-weight: 500;
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
 
+  column-gap: 54px;
 }
-.main .header{
-    text-align: center;
-   margin: 0;
-font-weight: 700;
-font-size: 90px;
-text-align: center;
-color:white;
-
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
 }
-.main{
-    background:url(./section1-bg.jpg) center center / cover no-repeat;
-
-   
-    height: 600px;
-
-    
+.main .header {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 90px;
+  text-align: center;
+  color: white;
 }
-.main button{
-    display: block;
-    margin: 0 auto ;
-    border-radius:20px ;
-    padding: 17px 57px ;
-    background-color:  #A0BD4D;
-    color : #FFFFFF;
-    font-weight: 600;
-    font-size: 20px;
-    border: none;
-    margin-top: 40px;
+.main {
+  background: url(./section1-bg.jpg) center center / cover no-repeat;
 
-    
+  height: 600px;
 }
-.header2{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 40px 46px;
-    margin: 0px 99px 0px;
+.main button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 17px 57px;
+  background-color: #a0bd4d;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  margin-top: 40px;
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 40px 0px 40px;
 }
 .header2 block {
-    border-radius: 7px;
-    color:#BCB9B9;
-    border-style: solid;
-    width: 153px; 
-    height: 56px;
-    padding: 16,5px  12px;
-    text-align: center;
-
-
+  border-radius: 7px;
+  color: #bcb9b9;
+  border-style: solid;
+  width: 153px;
+  height: 56px;
+  padding: 16, 5px 12px;
+  text-align: center;
 }
-.header2 p{
-    
-    border-style: solid;
-    color:#BCB9B9;
-    width: 769px;
-   
-
-
-
-
+.header2 p {
+  border-style: solid;
+  color: #bcb9b9;
+  width: 769px;
 }
-.header2 h1{
-    font-family: Montserrat;
-font-weight: 700;
-font-size: 60px;
-line-height: 130%;
-
-text-align: center;
-column-gap: 99px;
-padding-right: 0px;
-
-
+.header2 h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  text-align: center;
+  column-gap: 99px;
+  padding-right: 0px;
+  margin: 0px;
 }
-.section2{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px 40px;
+  margin-top: 46px;
 }
 
+.section2 p {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.section3 {
+  margin: 0px 40px;
+  margin-top: 60px;
+  padding-top: 40px;
+}
 .section3 img {
-    position:relative;
-    bottom: 5px;
-    left: 10PX;
-    width: 652px;
-    height: 314px;
-
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 652px;
+  height: 314px;
 }
-.section3 form{
-    width:500px;
-    height: 60px;
-    padding: 17px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 16px 0px;
-    float: right;
-    
+.section3 form {
+  width: 500px;
 
-}
-.section3 h1{
-  
-    font-weight: 700;
-    font-size: 64px;
-    text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 8px;
+  right: 0;
 }
 
-.section3{
-    background: linear-gradient(269.78deg, #54C62A 37.67%, #296015 63.72%) ;
-    
-    
+.section3 .wrapper form input {
+  padding: 19px 24px;
+  width: 500px;
+  height: 60px;
+  background: none;
+  border: 1.5px white solid;
+  border-radius: 10px;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+.section3 .wrapper form input::placeholder {
+  color: white;
 }
 
-.section4{
-    display:flex;
-    justify-content: space-between;
-   
-    width: 316px;
-    height: 392px;
-    border-radius: 24px;
-    font-size: 20px;
-    column-gap: 32px;
-    border-radius: 16px;
-    border-color: #998C8C;
-    border:2px;
-
-
-
+.section3 .wrapper form .btn {
+  width: 500px;
+  height: 60px;
+  background: none;
+  border: 1.5px white solid;
+  border-radius: 10px;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
 }
-.footer div{
-    border-style: solid;
-    border:2px;
-    background-color: #998C8C;
-    
-    width: 662px;
-    height: 150px;
-     border-radius: 12px;
-    display: inline-block;
-    align-items: center;
 
-    
-    column-gap: 142px;
-    justify-content:space-between ;
-    margin: 41px 142px 30px 40px ;
+.section3 h1 {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+}
 
+.section3 {
+  background: linear-gradient(269.78deg, #54c62a 37.67%, #296015 63.72%);
+}
+.section3 .wrapper {
+  width: 1200px;
+  height: 360px;
+  position: relative;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+
+  width: 316px;
+  height: 392px;
+  border-radius: 24px;
+  font-size: 20px;
+  column-gap: 32px;
+  border-radius: 16px;
+  border-color: #998c8c;
+  border: 2px;
+}
+.footer div {
+  border-style: solid;
+  border: 2px;
+  background-color: #998c8c;
+
+  width: 662px;
+  height: 150px;
+  border-radius: 12px;
+  display: inline-block;
+  align-items: center;
+
+  column-gap: 142px;
+  justify-content: space-between;
+  margin: 41px 142px 30px 40px;
+}
+
+.category-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.category-block {
+  padding: 16px 12px;
+  height: 56px;
+  width: 153px;
+  border: 2.5px #bcb9b9 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7px;
 }
